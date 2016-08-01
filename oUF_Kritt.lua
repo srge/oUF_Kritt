@@ -264,12 +264,12 @@ oUF:SpawnHeader(nil, nil, nil,
 	'maxColumns', 5,
 	'unitsPerColumn', 5,
 	'columnSpacing', 5,
-	'columnAnchorPoint', 'RIGHT',
+	'columnAnchorPoint', 'LEFT',
 	'oUF-initialConfigFunction', [[
 		self:SetWidth(90)
 		self:SetHeight(35)
 	]]
-):SetPoint('RIGHT', UIParent, 'LEFT', 1195, -362)
+):SetPoint('LEFT', UIParent, 'LEFT', 725, -362)
 
 --[[
 local visibilityConditions = '[group:raid,nogroup:party] show; [group:party] show; hide'
