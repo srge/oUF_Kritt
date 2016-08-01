@@ -269,7 +269,7 @@ oUF:SpawnHeader(nil, nil, nil,
 		self:SetWidth(90)
 		self:SetHeight(35)
 	]]
-):SetPoint('RIGHT', UIParent, 'LEFT', 776, -100)
+):SetPoint('RIGHT', UIParent, 'LEFT', 1195, -362)
 
 --[[
 local visibilityConditions = '[group:raid,nogroup:party] show; [group:party] show; hide'
