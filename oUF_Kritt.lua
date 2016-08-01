@@ -271,6 +271,7 @@ oUF:SpawnHeader(nil, nil, nil,
 	]]
 ):SetPoint('RIGHT', UIParent, 'LEFT', 776, -100)
 
+--[[
 local visibilityConditions = '[group:raid,nogroup:party] show; [group:party] show; hide'
 
 local Handler = CreateFrame('Frame')
@@ -286,3 +287,5 @@ Handler:SetScript('OnEvent', function()
 		RegisterAttributeDriver(oUF_KrittRaid, 'state-visibility', 'hide')
 	end
 end)
+--]]
+RegisterAttributeDriver(oUF_KrittRaid, 'state-visibility', 'show')
